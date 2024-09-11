@@ -3,7 +3,7 @@ body{
     border: 8px solid black;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: space-evenly;
 }
 
 .box{
