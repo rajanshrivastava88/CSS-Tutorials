@@ -2,14 +2,29 @@ body{
     min-height: 750px;
     border: 8px solid black;
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    /*
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
+
+    */
     
 }
 
+/*
+#box-1{
+    flex-shrink: 0; boxes will fit into their container without overflowing
+    flex-grow: 1; It will (only 1) grow to fill the empty space
+    align-items: flex-end; center
+    justify-self: flex-start;
+    margin-right: auto;
+}
+*/
 
 .box{
     display: flex;
@@ -19,4 +34,10 @@ body{
     width: 200px;
     background-color: blue;
     font-size: 40pt;
+}
+
+@media (max-width: 500px){
+    body{
+        flex-wrap: wrap;
+    }
 }
