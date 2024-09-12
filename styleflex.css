@@ -3,57 +3,12 @@ body{
     border: 8px solid black;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
-/*
+
 .box{
     height: 200px;
     width: 200px;
     font-size: 40pt;
-}
-
-*/
-
-.container{
-    justify-content: row;
-    margin-top: 10px;
-    margin-left: 5px;
-    
-}
-
-.first{
-    background-color: blue;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-}
-.second{
-    background-color: gray;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-}
-.third{
-    background-color: green;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-}
-.fourth{
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-}
-.fifth{
-    background-color: yellow;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-}
-.sixth{
-    background-color: teal;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
 }
