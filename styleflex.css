@@ -2,6 +2,7 @@ body{
     min-height: 700px;
     border: 8px solid black;
     display: flex;
+    gap: 30px;
     flex-wrap: wrap;
     
 }
@@ -10,5 +11,9 @@ body{
 .box{
     height: 200px;
     width: 200px;
+    background-color: blue;
     font-size: 40pt;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px 10px;
 }
