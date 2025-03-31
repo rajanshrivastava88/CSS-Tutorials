@@ -1,4 +1,4 @@
-body{
+body {
     min-height: 750px;
     border: 8px solid black;
     display: flex;
@@ -13,7 +13,7 @@ body{
     align-content: center;
 
     */
-    
+
 }
 
 /*
@@ -26,7 +26,7 @@ body{
 }
 */
 
-.box{
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +36,8 @@ body{
     font-size: 40pt;
 }
 
-@media (max-width: 500px){
-    body{
+@media (max-width: 500px) {
+    body {
         flex-wrap: wrap;
     }
 }
